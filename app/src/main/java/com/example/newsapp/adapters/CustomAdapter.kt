@@ -78,7 +78,7 @@ class CustomAdapter(private var newsList: List<NewsModel>) :
             val currentTimeInHours = Instant.now().atZone(ZoneId.of("Asia/Kolkata"))
             val newsTimeInHours = Instant.parse(time).atZone(ZoneId.of("Asia/Kolkata"))
             val hoursDifference = Duration.between(currentTimeInHours, newsTimeInHours)
-            val hoursAgo = " " + hoursDifference.toHours().toString().substring(1) + " hour ago"
+            val hoursAgo = " " + hoursDifference.toHours().toString().substring(1) + " giờ trước"
             holder.newsPublicationTime.text = hoursAgo
         }
 

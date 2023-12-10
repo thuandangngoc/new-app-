@@ -67,13 +67,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Send request call for news data
-        requestNews(GENERAL, generalNews)
-        requestNews(BUSINESS, businessNews)
-        requestNews(ENTERTAINMENT, entertainmentNews)
-        requestNews(HEALTH, healthNews)
-        requestNews(SCIENCE, scienceNews)
-        requestNews(SPORTS, sportsNews)
-        requestNews(TECHNOLOGY, techNews)
+        requestNews("general", generalNews)
+        requestNews("business", businessNews)
+        requestNews("entertainment", entertainmentNews)
+        requestNews("health", healthNews)
+        requestNews("science", scienceNews)
+        requestNews("sports", sportsNews)
+        requestNews("technology", techNews)
 
         fragmentAdapter = FragmentAdapter(supportFragmentManager, lifecycle)
         viewPager.adapter = fragmentAdapter

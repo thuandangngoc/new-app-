@@ -11,14 +11,14 @@
 
             <item
                 android:id="@+id/play_news"
-                android:title="Play" />
+                android:title="Phát" />
 
             <item
                 android:id="@+id/stop_news"
-                android:title="Stop" />
+                android:title="Dừng" />
 
             <item
-                android:title="Speed">
+                android:title="Tốc dộ">
 
                 <menu>
 
@@ -39,17 +39,17 @@
             </item>
 
             <item
-                android:title="Voice">
+                android:title="Tiếng nói">
 
                 <menu>
 
                     <item
                         android:id="@+id/voice1"
-                        android:title="voice1" />
+                        android:title="Tiếng nói 1" />
 
                     <item
                         android:id="@+id/voice2"
-                        android:title="voice2" />
+                        android:title="Tiếng nói 2" />
 
                 </menu>
 

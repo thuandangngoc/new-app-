@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">NewsApp</string>
-    <string name="top_headlines">Top Headlines</string>
-    <string name="browse">Browse</string>
-    <string name="share">Share</string>
-    <string name="save">Read later</string>
-    <string name="listen">Listen</string>
-    <string name="internet_warming">Check your Internet Connection and Try Again!</string>
+    <string name="app_name">Ứng dụng Tin tức</string>
+    <string name="top_headlines">Tiêu điểm</string>
+    <string name="browse">Duyệt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="save">Đọc sau</string>
+    <string name="listen">Nghe</string>
+    <string name="internet_warming">Kiểm tra kết nối Internet của bạn và thử lại!</string>
     <string name="news_placeholder">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
 
 </resources>

@@ -1,14 +1,14 @@
 package com.example.newsapp.utils
 
 object Constants {
-    const val HOME = "Home"
+    const val HOME = "Trang chủ"
     const val GENERAL = "general"
-    const val SCIENCE = "science"
-    const val HEALTH = "health"
-    const val ENTERTAINMENT = "entertainment"
-    const val BUSINESS = "business"
-    const val TECHNOLOGY = "technology"
-    const val SPORTS = "sports"
+    const val SCIENCE = "Khoa Học"
+    const val HEALTH = "Y Tế"
+    const val ENTERTAINMENT = "Giải Trí"
+    const val BUSINESS = "Kinh Doanh"
+    const val TECHNOLOGY = "Công Nghệ"
+    const val SPORTS = "Thể Thao"
     const val NEWS_URL = "news url"
     const val NEWS_TITLE = "news title"
     const val NEWS_IMAGE_URL = "news image url"
